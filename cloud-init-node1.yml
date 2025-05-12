@@ -1,0 +1,4 @@
+# cloud-init configuration
+packages:
+  - openssh-server
+
