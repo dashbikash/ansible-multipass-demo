@@ -1,0 +1,9 @@
+users:
+  - name: ubuntu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: sudo
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINN/PISqX7GI/CojOQOrc9A93LtQZVH5QT39vagD3K8p ubuntu
+package_update: true
+package_upgrade: true
